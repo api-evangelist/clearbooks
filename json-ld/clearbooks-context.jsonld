@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "cb": "https://api.clearbooks.co.uk/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Invoice": "schema:Invoice",
+    "PurchaseInvoice": "cb:PurchaseInvoice",
+    "SalesInvoice": "cb:SalesInvoice",
+    "Payment": "schema:Payment",
+    "Contact": "schema:Person",
+    "Customer": "schema:Customer",
+    "Supplier": "cb:Supplier",
+    "BankAccount": "schema:BankAccount",
+    "BankTransaction": "schema:MoneyTransfer",
+    "Expense": "cb:Expense",
+    "TaxReturn": "cb:TaxReturn",
+    "VATReturn": "cb:VATReturn",
+    "MTDSubmission": "cb:MTDSubmission",
+    "Project": "schema:Project",
+    "Report": "cb:Report",
+
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "email": "schema:email",
+    "telephone": "schema:telephone",
+    "address": "schema:address",
+    "streetAddress": "schema:streetAddress",
+    "addressLocality": "schema:addressLocality",
+    "postalCode": "schema:postalCode",
+    "addressCountry": "schema:addressCountry",
+
+    "invoiceNumber": { "@id": "schema:identifier", "@type": "xsd:string" },
+    "invoiceDate": { "@id": "schema:dateIssued", "@type": "xsd:date" },
+    "dueDate": { "@id": "schema:paymentDueDate", "@type": "xsd:date" },
+    "totalAmount": { "@id": "schema:totalPaymentDue", "@type": "xsd:decimal" },
+    "netAmount": { "@id": "cb:netAmount", "@type": "xsd:decimal" },
+    "vatAmount": { "@id": "cb:vatAmount", "@type": "xsd:decimal" },
+    "currency": { "@id": "schema:priceCurrency", "@type": "xsd:string" },
+    "status": "schema:orderStatus",
+    "paid": { "@id": "cb:paid", "@type": "xsd:boolean" },
+    "voided": { "@id": "cb:voided", "@type": "xsd:boolean" },
+
+    "transactionDate": { "@id": "schema:scheduledTime", "@type": "xsd:date" },
+    "amount": { "@id": "schema:amount", "@type": "xsd:decimal" },
+    "reference": { "@id": "schema:identifier", "@type": "xsd:string" },
+    "reconciled": { "@id": "cb:reconciled", "@type": "xsd:boolean" },
+
+    "taxCode": { "@id": "cb:taxCode", "@type": "xsd:string" },
+    "vatRate": { "@id": "cb:vatRate", "@type": "xsd:decimal" },
+    "periodStart": { "@id": "schema:startDate", "@type": "xsd:date" },
+    "periodEnd": { "@id": "schema:endDate", "@type": "xsd:date" },
+    "submittedAt": { "@id": "dcterms:date", "@type": "xsd:dateTime" },
+
+    "createdAt": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+    "updatedAt": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+
+    "lines": { "@id": "cb:lines", "@container": "@list" },
+    "quantity": { "@id": "schema:orderQuantity", "@type": "xsd:decimal" },
+    "unitPrice": { "@id": "cb:unitPrice", "@type": "xsd:decimal" },
+    "lineTotal": { "@id": "cb:lineTotal", "@type": "xsd:decimal" },
+
+    "pageSize": { "@id": "cb:pageSize", "@type": "xsd:integer" },
+    "pageNumber": { "@id": "cb:pageNumber", "@type": "xsd:integer" },
+    "totalCount": { "@id": "cb:totalCount", "@type": "xsd:integer" }
+  },
+  "@type": "schema:Organization",
+  "@id": "https://www.clearbooks.co.uk",
+  "schema:name": "Clear Books",
+  "schema:description": "UK cloud accounting software with a REST API for managing invoices, expenses, bank transactions, contacts, reports, and tax submissions for small businesses.",
+  "schema:url": "https://www.clearbooks.co.uk",
+  "schema:sameAs": [
+    "https://github.com/clearbooks",
+    "https://www.linkedin.com/company/clear-books",
+    "https://twitter.com/ClearBooks"
+  ]
+}
