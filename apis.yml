@@ -1,0 +1,60 @@
+aid: clearbooks
+name: Clear Books
+description: Clear Books is UK cloud accounting software with a REST API for managing invoices, expenses, bank transactions, contacts, reports, and tax submissions for small businesses.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/clearbooks/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Accounting
+  - Invoicing
+  - Finance
+  - UK
+  - Small Business
+  - MTD
+  - Tax
+apis:
+  - name: Clear Books REST API
+    description: RESTful API for integrating with Clear Books accounting software to manage invoices, payments, contacts, bank transactions, and expenses.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://api-docs.clearbooks.co.uk/
+    baseURL: https://api.clearbooks.co.uk/
+    tags:
+      - Accounting
+      - Invoicing
+      - Expenses
+      - Contacts
+      - Bank Transactions
+      - Tax
+    properties:
+      - type: Documentation
+        url: https://api-docs.clearbooks.co.uk/
+      - type: Authentication
+        url: https://oauth-helper.clearbooks.co.uk/
+common:
+  - type: Website
+    url: https://www.clearbooks.co.uk/
+  - type: Documentation
+    url: https://api-docs.clearbooks.co.uk/
+  - type: GitHubOrg
+    url: https://github.com/clearbooks
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/clear-books
+  - type: Blog
+    url: https://www.clearbooks.co.uk/blog/
+  - type: Pricing
+    url: https://www.clearbooks.co.uk/pricing/
+  - type: StatusPage
+    url: https://status.clearbooks.co.uk/
+  - type: X
+    url: https://twitter.com/ClearBooks
+  - type: Plans
+    url: plans/clearbooks-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/clearbooks-rate-limits.yml
+  - type: FinOps
+    url: finops/clearbooks-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

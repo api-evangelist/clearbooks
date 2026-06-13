@@ -1,0 +1,23 @@
+name: Clear Books API Rate Limits
+description: Rate limiting policies for the Clear Books REST API
+url: https://api-docs.clearbooks.co.uk/
+limits:
+  - type: requests_per_second
+    limit: 5
+    description: Applications making more than 5 requests per second for a sustained period may be subject to throttling and rate limiting
+    sustained: true
+
+  - type: http_status_on_limit
+    code: 429
+    description: When an application is being rate limited a HTTP 429 response will be returned for API calls
+
+retry:
+  strategy: exponential_backoff
+  description: Rate limited requests should be retried using an exponential backoff algorithm
+
+notes:
+  - Rate limits are subject to change without prior warning and should not be hard-coded into applications
+
+oauth:
+  token_limit: single_per_user
+  description: Applications can only hold a single access token for a user at any given time. If a user completes the OAuth authorisation flow a second time, the previous access token and refresh token will be revoked

@@ -1,0 +1,38 @@
+name: Clear Books FinOps
+description: Financial operations considerations for using the Clear Books API
+url: https://www.clearbooks.co.uk/pricing/
+cost_model:
+  type: subscription
+  description: API access is included with Small, Medium, and Large business subscription plans. No separate API usage fees are documented.
+  currency: GBP
+
+api_access:
+  included_plans:
+    - name: Small
+      monthly_price: 16
+      intro_price: 8
+      intro_duration_months: 3
+    - name: Medium
+      monthly_price: 34
+      intro_price: 17
+      intro_duration_months: 3
+    - name: Large
+      monthly_price: 44
+      intro_price: 22
+      intro_duration_months: 3
+
+trial:
+  available: true
+  duration_days: 30
+  description: 30-day free trial available for business plans
+
+cost_optimization:
+  - Use the introductory pricing period (first 3 months at 50% off) to evaluate API capabilities before committing to full plan pricing
+  - Choose the Small plan if only basic API access is needed (invoices, contacts, payments)
+  - Upgrade to Medium or Large only when MTD VAT submissions, purchase orders, project accounting, or multi-currency features are required
+  - Annual and biennial billing options may offer additional discounts versus monthly billing
+
+sandbox:
+  available: true
+  description: Developer sandbox available upon request via https://www.clearbooks.co.uk/contact-ai/
+  cost: free

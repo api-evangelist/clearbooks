@@ -1,0 +1,112 @@
+name: Clear Books Plans and Pricing
+description: Pricing plans for Clear Books UK cloud accounting software
+url: https://www.clearbooks.co.uk/pricing/
+plans:
+  - name: Sole Trader Free
+    description: Free MTD Income Tax filing for sole traders with basic expense recording
+    price: 0
+    currency: GBP
+    billing_period: monthly
+    features:
+      - MTD Income Tax Quarterly updates
+      - MTD Income Tax Year End tax return filing
+      - Basic expense recording
+      - Community forum access
+    api_access: false
+
+  - name: Property Free
+    description: Free MTD tax filing and expense tracking for property owners
+    price: 0
+    currency: GBP
+    billing_period: monthly
+    features:
+      - MTD tax filing
+      - Expense tracking for one or multiple grouped properties
+      - Community forum access
+      - Accountant invitation
+    api_access: false
+
+  - name: Sole Trader
+    description: Core accounting features for self-employed individuals
+    price: 5
+    currency: GBP
+    billing_period: monthly
+    features:
+      - Automated bank feeds
+      - Invoice creation
+      - Business reporting
+      - Unlimited users
+      - Accountant tools
+    api_access: false
+
+  - name: Sole Trader + VAT
+    description: Full self-employment accounting with MTD VAT reporting
+    price: 15
+    currency: GBP
+    billing_period: monthly
+    features:
+      - Everything in Sole Trader plan
+      - MTD VAT reporting
+      - Flat-rate scheme support
+      - Reverse charge handling
+    api_access: false
+
+  - name: Property
+    description: Multi-property accounting with bank feeds and invoicing
+    price: 5
+    currency: GBP
+    billing_period: monthly
+    features:
+      - Multi-property tracking
+      - Bank feeds
+      - Automated matching
+      - Invoicing
+      - Business reporting
+    api_access: false
+
+  - name: Small
+    description: Full accounting for limited companies, partnerships, and charities
+    price: 16
+    price_intro: 8
+    intro_months: 3
+    currency: GBP
+    billing_period: monthly
+    features:
+      - Bank feeds
+      - Invoicing
+      - Contact management
+      - Stock tracking
+      - Dividends tool
+      - API access
+    api_access: true
+    target: Limited companies, partnerships, charities
+
+  - name: Medium
+    description: Enhanced accounting with MTD VAT and purchase orders
+    price: 34
+    price_intro: 17
+    intro_months: 3
+    currency: GBP
+    billing_period: monthly
+    features:
+      - Everything in Small plan
+      - MTD VAT submissions
+      - Purchase orders
+      - CIS reporting
+      - Unlimited budgets
+    api_access: true
+
+  - name: Large
+    description: Enterprise accounting with project tracking and multi-currency
+    price: 44
+    price_intro: 22
+    intro_months: 3
+    currency: GBP
+    billing_period: monthly
+    features:
+      - Everything in Medium plan
+      - Project accounting
+      - Multi-currency support
+      - Fixed asset tracking
+      - Employee expense management
+    api_access: true
