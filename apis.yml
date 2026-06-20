@@ -1,7 +1,7 @@
 aid: clearbooks
 name: Clear Books
 description: Clear Books is UK cloud accounting software with a REST API for managing invoices, expenses, bank transactions, contacts, reports, and tax submissions for small businesses.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/clearbooks/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -17,7 +17,7 @@ tags:
 apis:
   - name: Clear Books REST API
     description: RESTful API for integrating with Clear Books accounting software to manage invoices, payments, contacts, bank transactions, and expenses.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://api-docs.clearbooks.co.uk/
     baseURL: https://api.clearbooks.co.uk/
     tags:
