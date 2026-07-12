@@ -33,6 +33,8 @@ apis:
       - type: Authentication
         url: https://oauth-helper.clearbooks.co.uk/
 common:
+  - type: DomainSecurity
+    url: security/clearbooks-domain-security.yml
   - type: Website
     url: https://www.clearbooks.co.uk/
   - type: Documentation
