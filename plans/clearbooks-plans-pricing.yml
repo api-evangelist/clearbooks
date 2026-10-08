@@ -114,3 +114,59 @@ plans:
       - Fixed asset tracking
       - Employee expense management
     api_access: true
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Sole Trader Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Property Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Sole Trader
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Sole Trader + VAT
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Property
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Small
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Medium
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Large
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
