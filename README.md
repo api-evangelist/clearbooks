@@ -66,42 +66,109 @@
 
 Clear Books is UK cloud accounting software with a REST API for managing invoices, expenses, bank transactions, contacts, reports, and tax submissions for small businesses.
 
-## API
+**Areas:** Accounting · Invoicing · Finance · United Kingdom · Small Business · MTD · Tax
 
-The Clear Books REST API allows third-party applications to integrate with Clear Books accounting data. Key capabilities include:
+## Clear Books on APIs.io
 
-- Adding sales and purchase invoices
-- Voiding previously added invoices
-- Recording and allocating payments to invoices
-- Adding, updating, and deleting customers and suppliers
-- Bank transaction management
-- Expense tracking
+Everything profiled for Clear Books is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clearbooks/](https://apis.io/providers/clearbooks/)** — or go straight to one of the APIs or properties below.
 
-**API Documentation:** https://api-docs.clearbooks.co.uk/
+### APIs (1)
 
-**Authentication:** OAuth 2.0 — https://oauth-helper.clearbooks.co.uk/
+- [Clear Books REST API](https://apis.io/apis/clearbooks/clear-books-rest-api/) — RESTful API for integrating with Clear Books accounting software to manage invoices, payments, contacts, bank transactions, and expenses.
 
-**Developer Contact:** api@clearbooks.co.uk
+### Published properties
 
-## Rate Limits
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- 5 requests per second sustained limit
-- HTTP 429 returned when rate limited
-- Retry using exponential backoff
-- Limits may change without prior notice
-- One active OAuth access token per user per application
+#### JSON-LD (1)
 
-## Plans
+Linked-data contexts for the provider's vocabulary.
 
-API access is included with the Small (£16/month), Medium (£34/month), and Large (£44/month) business plans. A 30-day free trial is available, and introductory pricing offers 50% off for the first 3 months.
+- [Clearbooks Context](https://apis.io/jsonld/clearbooks/clearbooks-context/)
 
-## Resources
+#### Security (1)
 
-- Website: https://www.clearbooks.co.uk/
-- Documentation: https://api-docs.clearbooks.co.uk/
-- GitHub: https://github.com/clearbooks
-- Status: https://status.clearbooks.co.uk/
-- Blog: https://www.clearbooks.co.uk/blog/
-- Pricing: https://www.clearbooks.co.uk/pricing/
-- LinkedIn: https://www.linkedin.com/company/clear-books
-- X (Twitter): https://twitter.com/ClearBooks
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Clearbooks Domain Security](https://apis.io/security/clearbooks/clearbooks-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Clearbooks Plans Pricing](https://apis.io/plans/clearbooks/clearbooks-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Clearbooks Rate Limits](https://apis.io/rate-limits/clearbooks/clearbooks-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Clearbooks Finops](https://apis.io/finops/clearbooks/clearbooks-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.clearbooks.co.uk/)
+- [Documentation](https://api-docs.clearbooks.co.uk/)
+- [Pricing](https://www.clearbooks.co.uk/pricing/)
+- [Blog](https://www.clearbooks.co.uk/blog/)
+- [Status](https://status.clearbooks.co.uk/)
+
+## API Evangelist rating
+
+**Kin Score 21.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 18.4 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/clearbooks/](https://apis.io/providers/clearbooks/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clear Books: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clearbooks/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
